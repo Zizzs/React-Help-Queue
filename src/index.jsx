@@ -14,8 +14,9 @@ const render = (Component) => {
     document.getElementById('react-app-root')
   );
 };
-  
+
 render(App);
+
 /*eslint-disable */
 if (module.hot) {
   module.hot.accept('./components/App', () => {
